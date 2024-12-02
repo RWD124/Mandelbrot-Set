@@ -67,7 +67,7 @@ function kernel_mandelbrot(pixels, width, height, max_iter, zoom, x_offset, y_of
     return nothing
 end
 
-# Set parameters
+# These are the ones you might want to change.
 width = 1920
 height = 1080
 max_iter = 2000

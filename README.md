@@ -12,3 +12,7 @@ Then just julia Mandelbrot_Set_Cuda_Video.jl
 And it will start to make the video using a Nvidia GPU asuming you have the right drivers for that card.
 
 Current examples are not the best but we are working on it.
+Examples:
+
+  https://youtu.be/GphG_hUd-o4
+  https://youtu.be/BSHnKKBmsMo

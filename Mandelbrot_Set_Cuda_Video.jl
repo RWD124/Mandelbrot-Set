@@ -75,7 +75,7 @@ zoom = 1
 x_offset = -0.79271704858622756
 y_offset = -0.16089270323427649
 zoom_rate = 0.01
-frames = 7200
+frames = 3600
 fps = 60
 encoder_options = (crf=0, preset="ultrafast")
 

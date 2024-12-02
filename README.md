@@ -6,6 +6,7 @@ You can get Julia at https://julialang.org/
 To run the code you need Julia and Colors, CUDA, ColorTypes, ProgressBars, Adapt, and VideoIO.
 I think you might need FileIO too.
 Theese can be installed with          
+                                  
                                   import Pkg; Pkg.add(["Colors", "CUDA", "ColorTypes", "ProgressBars", "Adapt", "VideoIO", FileIO])
 
 Then just julia Mandelbrot_Set_Cuda_Video.jl

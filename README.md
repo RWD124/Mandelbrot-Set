@@ -7,7 +7,7 @@ To run the code you need Julia and Colors, CUDA, ColorTypes, ProgressBars, Adapt
 I think you might need FileIO too.
 These can be installed with          
                                   
-import Pkg; Pkg.add(["Colors", "CUDA", "ColorTypes", "ProgressBars", "Adapt", "VideoIO", FileIO])
+import Pkg; Pkg.add(["Colors", "CUDA", "ColorTypes", "ProgressBars", "Adapt", "VideoIO", "FileIO"])
 
 Then just julia Mandelbrot_Set_Cuda_Video.jl
 And it will start to make the video using a Nvidia GPU asuming you have the right drivers for that card.

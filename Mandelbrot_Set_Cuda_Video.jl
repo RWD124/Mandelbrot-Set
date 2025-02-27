@@ -84,6 +84,6 @@ encoder_options = (crf=0, preset="ultrafast")
 println("Generating Mandelbrot set video (GPU)...")
 @time imgstack = mandelbrot_gpu_video(width, height, max_iter, zoom, x_offset, y_offset, zoom_rate, frames);
 
-@time VideoIO.save("Mandelbrot_Videos/mandelbrot_gpu_video.mp4", imgstack, framerate=fps, encoder_options=encoder_options, codec_name="libx264rgb");
+@time VideoIO.save("mandelbrot_gpu_video.mp4", imgstack, framerate=fps, encoder_options=encoder_options, codec_name="libx264rgb");
 
 println("Done!")
